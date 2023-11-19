@@ -1,14 +1,22 @@
 # Linear shaft motor 🧲
-Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). 
+Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). The design is intended to be used as a 'stage' for a lithography machine or other applications with precision position requirements but light load.
+
+Target features
+
+* ~1 Micron position (measurement) accuracy or better
+* Ability to stack design for two linear movement axes
+* ~110mm travel range
+* Open Hardware. Designed from parts that can be sourced.
 
 ### Selected Hardware
 
-* 🍢 Carbon fiber shaft holding magnets. Needed stiff material with low magnetism. Alu or Brass would also work just fine I guess, but this is better and available.
-* 🧲 Magnets: Neodymium
-* 🔌 Coils: sourced from JHcoils?
-* 🧰 Linear guidance: ideally.
-* ⚡ Driving: TMC4671 and TMC6200 (Or 6100)
-* 🎯 Encoder: Magnetic  or optical?
+There are 3 elements that are key to a linear induction stage. Considerations and selection motivations can be found on the linked wiki sections.
+
+* [Linear guidance system](wiki/linear-guidance.md) ⚙. The mechanical constraints that constrain motion along a single direction. Think linear rails and so on. 
+* Linear induction motor 🧲. The magnets and coil assembly that are able to produce the forces required for the stage to move along it's constrained motion path.
+* Encoder and feedback circuit 💻. Components that sense the system's position and use this information to drive the linear motor to target location.
+
+Of course there is also the brackets and mounting surfaces etc that are required to ensure these pieces all fit together.
 
 ### Linear induction motor geometries
 
