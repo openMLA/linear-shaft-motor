@@ -8,17 +8,17 @@ Target features
 * ~110mm travel range
 * Open Hardware. Designed from parts that can be sourced.
 
-### Selected Hardware
+### Hardware overview 🛍
 
 There are 3 elements that are key to a linear induction stage. Considerations and selection motivations can be found on the linked wiki sections.
 
-* [Linear guidance system](wiki/linear-guidance.md) ⚙. The mechanical constraints that constrain motion along a single direction. Think linear rails and so on. 
-* Linear induction motor 🧲. The magnets and coil assembly that are able to produce the forces required for the stage to move along it's constrained motion path.
-* Encoder and feedback circuit 💻. Components that sense the system's position and use this information to drive the linear motor to target location.
+* [Linear guidance system](https://github.com/openMLA/linear-shaft-motor/wiki/linear-guidance) ⚙. The mechanical constraints that constrain motion along a single direction. Think linear rails and so on. 
+* [Linear induction motor](https://github.com/openMLA/linear-shaft-motor/wiki/induction-motor) 🧲. The magnets and coil assembly that are able to produce the forces required for the stage to move along it's constrained motion path.
+* [Encoder and feedback circuit](https://github.com/openMLA/linear-shaft-motor/wiki/encoder-and-feedback) 💻. Components that sense the system's position and use this information to drive the linear motor to target location.
 
-Of course there is also the brackets and mounting surfaces etc that are required to ensure these pieces all fit together.
+Of course there is also the brackets and mounting surfaces that are required to ensure these pieces all fit together.
 
-### Linear induction motor geometries
+### Linear induction motor geometries 🔠
 
 There are 3 categories of linear induction motors:
 
@@ -26,7 +26,7 @@ There are 3 categories of linear induction motors:
 * I-beam motors (flat magnets on both sides of forcer)
 * Shaft motors (cylindrical magnets with forcer wrapped around magnets)
 
-There are advantages and disadvantages to each geometry. This [video  by  WSM Technology INC 🎥](https://www.youtube.com/watch?v=Bxs2PFg0luw) is a good starting point. It primarily is listing advantages of Shaft motors (as used in this project), but doesn't really go into the downsides of the shaft geometry. I think that the primary disadvantage is that the shaft motor is a pretty bulky design, and in space-constrained applications it may not be ideal.
+There are advantages and disadvantages to each geometry. This [video  by  WSM Technology INC 🎥](https://www.youtube.com/watch?v=Bxs2PFg0luw) is a good starting point. It primarily is listing advantages of Shaft motors (as used in this project), but doesn't really go into the downsides of the shaft geometry. I think that the primary disadvantage is that the shaft motor is a pretty bulky design, and in space-constrained applications it may not be ideal. This kind of project would actually be a good fit for flat or I-beam geometries as the space below the stage is quite wide, and a linear-shaft design is not using that space efficiently.
 
 ### Similar projects 👨‍❤️‍👨
 
