@@ -1,6 +1,15 @@
 # Linear shaft motor 🧲
 Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). 
 
+### Selected Hardware
+
+* 🍢 Carbon fiber shaft holding magnets. Needed stiff material with low magnetism. Alu or Brass would also work just fine I guess, but this is better and available.
+* 🧲 Magnets: Neodymium
+* 🔌 Coils: sourced from JHcoils?
+* 🧰 Linear guidance: ideally.
+* ⚡ Driving: TMC4671 and TMC6200 (Or 6100)
+* 🎯 Encoder: Magnetic  or optical?
+
 ### Linear induction motor geometries
 
 There are 3 categories of linear induction motors:
