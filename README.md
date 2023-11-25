@@ -1,5 +1,5 @@
 # Linear shaft motor stage 🧲
-![](preview.PNG)
+![](preview.jpg)
 
 Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). The design is intended to be used as an  'XY-stage' for a lithography machine or other applications with precision position requirements but light load.
 
@@ -9,6 +9,10 @@ Target features
 * Ability to stack design for two linear movement axes
 * ~110mm travel range
 * Open Hardware. Designed from parts that can be sourced.
+
+> [!IMPORTANT]
+>
+> The binary files in this repository (FreeCAD files, etc) are managed with Git-Annex. When you clone this repo they will not immediately be available. You will need to install Git-Annex on your system and then run `git-annex get .` to download these files.
 
 ### Hardware overview 🛍
 

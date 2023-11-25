@@ -1,0 +1,17 @@
+﻿Name,Manufacturer,Manufacturer Number,Supplier,Supplier Number,Quantity,Price Total,Optional,Comments
+GMT Crossed Roller Bearings 150mm,,,GMT Europe GmbH,50301010300,2,200.2,,"Higher quality bearings would improve performance, but would also increase requirements on stiffness of mounting brackets and preload"
+Carbon fiber shaft 12mm OD 150mm,,,igus,CWM-12,2,40,,
+Neodymium magnet 9x5mm,,,supermagnete,S-09-05-N,52,36.92,,Depending on magnet cost it may be worth ordering some to see what the fit is like in the carbon fiber shaft
+Magnet Glue UHU Max Repair,,,supermagnete,WS-ADH-01,,8,,To minimise magnet movement in the shaft
+Copper Coils 13mm ID 30mm OD 3mm,,,Jhcoils,-,12,30,,"Current estimate, needs more info from supplier"
+Waterjet cut float glass 3mm,,,Alleswatersnijden.nl,-,1,100,,Conservative estimate
+TMC 4671 & TMC6200 motor driver board,ADI Trinamic,TMC4671+TMC6100-BOB,Mouser,700-TMC4671TMC6100BO,2,117,,"To be turned into custom PCB, but this is the developer board"
+Broadcom  AEDR-9930EL optical encoder,Broadcom,HEDS-9930ELEVB,Mouser,630-HEDS-9930ELEVB,2,183,,"To be turned into custom PCB, but this is the developer board. Optical scale that comes with it is too small for this application"
+"Unmounted Ø1/2"" Steinheil Achromatic Triplet, f = 20 mm",,,Thorlabs,TRS127-020-A,1,79.3,CAM,Low profile objective operated outside its design focal length may also work
+Raspberry pi NoIR Camera V2,Raspberry Pi,Pi NoIR Camera Module V2.1,Kiwi Electronics,KW-1703,1,20,CAM,Sony IMX IMX219; 1.12um pixel size; 3280 x 2464
+Round silver mirror 1/2inch,,,Thorlabs,ME05-P01,1,20.2,CAM,
+M3 Bolt (ISO 4762) 10mm,,,,,30,15,,
+Structural - Baseplate,,,,,,100,,"SLS/MJF, should maybe be partially machined out of Alu"
+Structural - Center plate,,,,,,100,,"SLS/MJF, should maybe be partially machined out of Alu"
+Structural - Top plate,,,,,,100,,"SLS/MJF, should maybe be partially machined out of Alu"
+Barbed Vacuum fitting - M5 4mm for 4mm ID hose,,,Mattech.nl,40190405,1,1.1,,
