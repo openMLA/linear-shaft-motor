@@ -1,5 +1,7 @@
-# Linear shaft motor 🧲
-Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). The design is intended to be used as a 'stage' for a lithography machine or other applications with precision position requirements but light load.
+# Linear shaft motor stage 🧲
+![](preview.PNG)
+
+Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). The design is intended to be used as an  'XY-stage' for a lithography machine or other applications with precision position requirements but light load.
 
 Target features
 
@@ -27,6 +29,10 @@ There are 3 categories of linear induction motors:
 * Shaft motors (cylindrical magnets with forcer wrapped around magnets)
 
 There are advantages and disadvantages to each geometry. This [video  by  WSM Technology INC 🎥](https://www.youtube.com/watch?v=Bxs2PFg0luw) is a good starting point. It primarily is listing advantages of Shaft motors (as used in this project), but doesn't really go into the downsides of the shaft geometry. I think that the primary disadvantage is that the shaft motor is a pretty bulky design, and in space-constrained applications it may not be ideal. This kind of project would actually be a good fit for flat or I-beam geometries as the space below the stage is quite wide, and a linear-shaft design is not using that space efficiently.
+
+### Bill of materials 📃💸
+
+You can find the BOM as a CSV file in this repository. Note that this BOM.csv is generated from another CSV in the `./components` directory.
 
 ### Similar projects 👨‍❤️‍👨
 
