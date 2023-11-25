@@ -1,4 +1,9 @@
+> [!CAUTION]
+>
+> This project is still under development, and is not yet ready for reproduction. Star or watch the repository if you want to be the first to know about a first release. 
+
 # Linear shaft motor stage 🧲
+
 ![](preview.jpg)
 
 Hardware design of a Linear Induction Motor. Uses circumferential coil arrangement (a.k.a. 'linear shaft motor'). The design is intended to be used as an  'XY-stage' for a lithography machine or other applications with precision position requirements but light load.
