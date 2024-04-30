@@ -48,6 +48,7 @@ You can find the BOM as a CSV file in this repository. Note that this BOM.csv is
 Besides the many commercial vendors of induction motors of the various kinds (shaft, flat, and I-beam), there have also been various DIY attempts at such motors. They are impressive efforts, and were very effective in demonstrating the feasibility of the concept. Vulcaman's project can and has even been reproduced by another user.
 
 * [Linear Shaft Motor by tyler mccollum (GitHub)](https://github.com/tylermccollum/LinearMotor) - Uses a bearing inside the motor itself, rather than relying on external rails. 
+* [Linear shaft motor with cmore839 (GitHub)](https://github.com/cmore839/DIY-Linear-Motor) - Project with multiple collaborators that aims to develop solution that can be implemented in various settings (3D printers, pick and place, etc) 
 * [Vulcaman's I-beam linear motor (Instructables)](https://www.instructables.com/DIY-IRONLESS-LINEAR-SERVO-MOTOR/) - I-beam linear motor, uses quite a bit of CNC machined elements
 * [TkkrLab's I-beam linear motor (GitHub)](https://github.com/TkkrLab/LinearMotor) - I-beam linear motor, inspired by the project above. Some videos [available on YouTube](https://www.youtube.com/watch?v=bwdEMA3n0Z4).
 * [Bzaz_31 linear shaft beam motor (YouTube)](https://www.youtube.com/watch?v=-LRr727emjQ) - Linear shaft motor and RLC magnetic encoder.
