@@ -1,0 +1,1 @@
+d1fa1cf9-9c96-479b-b49f-fe1d06e57ec7 autoenable=true bucket=openmla-linear-shaft-motor datacenter=europe-west1 encryption=none host=storage.googleapis.com name=googlecloud port=80 publicurl=https://storage.googleapis.com/openmla-linear-shaft-motor&32;public=yes storageclass=STANDARD type=S3 timestamp=1715803473.3082173s
